@@ -1,0 +1,39 @@
+{
+  "hero": {
+    "heading": "Henfield to Stansted Airport Taxi",
+    "body": "Pre-book your taxi transfer from Henfield to London Stansted Airport with Western Cars."
+  },
+  "sections": [
+    {
+      "id": "sec1",
+      "heading": "Taxi from Henfield to Stansted",
+      "body": "Western Cars provides pre-booked taxi transfers from Henfield to London Stansted Airport. Our professional drivers will ensure you arrive on time and in comfort, whether you have an early morning or late night flight."
+    },
+    {
+      "id": "sec2",
+      "heading": "Stansted Airport Pickup",
+      "body": "Returning from Stansted? Pre-book your return transfer with Western Cars. Our drivers monitor your flight arrival so they are ready when you land."
+    },
+    {
+      "id": "sec3",
+      "heading": "Why Pre-book Your Stansted Transfer?",
+      "body": "Pre-booking your Stansted taxi ensures a confirmed vehicle is waiting for you. Avoid the uncertainty of finding a taxi at the airport and travel with confidence."
+    }
+  ],
+  "faq": [
+    {
+      "id": "f1",
+      "question": "How do I book a taxi from Henfield to Stansted?",
+      "answer": "Book online at westerncars.webbooker.icabbi.com, call 01273 588080, or message on WhatsApp to 07722 489859."
+    },
+    {
+      "id": "f2",
+      "question": "Can I book a return transfer from Stansted to Henfield?",
+      "answer": "Yes. Pre-book your return transfer and your driver will monitor your flight arrival time."
+    }
+  ],
+  "cta": {
+    "heading": "Book Your Stansted Transfer",
+    "body": "Pre-book your Henfield to Stansted taxi today."
+  }
+}

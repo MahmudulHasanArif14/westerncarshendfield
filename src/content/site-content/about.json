@@ -1,0 +1,54 @@
+{
+  "hero": {
+    "heading": "About Western Cars Henfield",
+    "body": "Western Cars is a professional taxi and private-hire service based in Henfield, West Sussex. We provide reliable, comfortable transport for local journeys, airport transfers and longer-distance trips."
+  },
+  "overview": {
+    "heading": "Who We Are",
+    "body": "Western Cars is a licensed private-hire operator based in Henfield, serving the local community and surrounding areas of West Sussex. Our team of professional, locally-knowledgeable drivers is committed to providing a punctual, comfortable and courteous service every time you travel with us."
+  },
+  "approach": {
+    "heading": "Our Approach",
+    "body": "We believe that getting from A to B should be straightforward and stress-free. Whether you need a local taxi, an early-morning airport run or a corporate transfer, we aim to make every journey as smooth as possible. All our drivers are fully licensed, DBS-checked and familiar with the local area."
+  },
+  "booking": {
+    "heading": "Easy to Book",
+    "body": "Booking with Western Cars is simple. Use our online booking system, call us directly or send a WhatsApp message — whichever is most convenient for you. We are available 24 hours a day, 7 days a week."
+  },
+  "whyUs": [
+    {
+      "id": "w1",
+      "title": "Available 24/7",
+      "body": "We operate around the clock, every day of the year including bank holidays."
+    },
+    {
+      "id": "w2",
+      "title": "Local Knowledge",
+      "body": "Our drivers know Henfield and the surrounding West Sussex area inside out."
+    },
+    {
+      "id": "w3",
+      "title": "Airport Transfers",
+      "body": "Pre-booked transfers to Gatwick, Heathrow, Stansted, Luton and London City Airport."
+    },
+    {
+      "id": "w4",
+      "title": "Easy Booking",
+      "body": "Book online, by phone or via WhatsApp — fast and straightforward."
+    },
+    {
+      "id": "w5",
+      "title": "Comfortable Vehicles",
+      "body": "Clean, well-maintained vehicles to make every journey comfortable."
+    },
+    {
+      "id": "w6",
+      "title": "Professional Service",
+      "body": "Fully licensed, DBS-checked drivers committed to a courteous, punctual service."
+    }
+  ],
+  "cta": {
+    "heading": "Ready to Book Your Taxi?",
+    "body": "Book online, call us or send a WhatsApp message. We are available 24 hours a day, 7 days a week."
+  }
+}

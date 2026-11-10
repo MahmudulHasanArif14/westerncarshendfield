@@ -1,0 +1,291 @@
+{
+  "hero": {
+    "heading": "Henfield Taxi & Private Hire",
+    "subheading": "Your Local Henfield Taxis — 24/7",
+    "body": "Western Cars is Henfield's trusted taxi company, providing reliable taxis, airport transfers and private hire across Henfield and West Sussex. Book online, call us or WhatsApp.",
+    "trustItems": [
+      "24/7 Service",
+      "Local Drivers",
+      "Airport Specialists",
+      "Easy Online Booking",
+      "Professional Vehicles"
+    ]
+  },
+  "intro": {
+    "heading": "Taxi in Henfield, West Sussex",
+    "subheading": "Henfield Taxis Available 24/7",
+    "body": "Western Cars is the go-to taxi in Henfield, West Sussex. Whether you need a local taxi in Henfield, a taxi from Henfield to Brighton, Henfield to Gatwick, Henfield to Heathrow, or a longer private hire journey — our experienced local drivers are ready around the clock. Call our Henfield taxis number on 01273 588080, book online or message us on WhatsApp.",
+    "cta": "Book Online Now"
+  },
+  "whyUs": {
+    "heading": "Why Choose Western Cars?",
+    "items": [
+      {
+        "id": "w1",
+        "icon": "clock",
+        "title": "24/7 Taxi Service",
+        "body": "Available around the clock, every day of the year including bank holidays."
+      },
+      {
+        "id": "w2",
+        "icon": "shield",
+        "title": "Professional Service",
+        "body": "Experienced, courteous drivers committed to a comfortable journey every time."
+      },
+      {
+        "id": "w3",
+        "icon": "plane",
+        "title": "Airport Transfers",
+        "body": "Pre-booked transfers to Gatwick, Heathrow, Stansted, Luton and London City."
+      },
+      {
+        "id": "w4",
+        "icon": "globe",
+        "title": "Easy Booking",
+        "body": "Book online, by phone or via WhatsApp — whichever is most convenient for you."
+      },
+      {
+        "id": "w5",
+        "icon": "car",
+        "title": "Comfortable Vehicles",
+        "body": "Well-maintained, clean vehicles to make every journey as comfortable as possible."
+      },
+      {
+        "id": "w6",
+        "icon": "map-pin",
+        "title": "Local Knowledge",
+        "body": "Drivers who know Henfield and West Sussex, ensuring efficient and reliable journeys."
+      }
+    ]
+  },
+  "services": {
+    "heading": "Our Taxi Services",
+    "items": [
+      {
+        "id": "s1",
+        "icon": "car",
+        "title": "Local Taxi Henfield",
+        "body": "Reliable local taxis in Henfield and surrounding West Sussex villages — available 24/7.",
+        "cta": "Book Now",
+        "href": "/services"
+      },
+      {
+        "id": "s2",
+        "icon": "plane",
+        "title": "Airport Transfers",
+        "body": "Henfield to Gatwick, Henfield to Heathrow, Stansted, Luton and London City — fixed prices.",
+        "cta": "Book Transfer",
+        "href": "/airport-transfers"
+      },
+      {
+        "id": "s3",
+        "icon": "briefcase",
+        "title": "Business Travel",
+        "body": "Professional, punctual transport for business meetings and corporate travel.",
+        "cta": "Book Now",
+        "href": "/services"
+      },
+      {
+        "id": "s4",
+        "icon": "map",
+        "title": "Long Distance",
+        "body": "Comfortable long-distance private hire journeys across the UK.",
+        "cta": "Book Now",
+        "href": "/services"
+      },
+      {
+        "id": "s5",
+        "icon": "map-pin",
+        "title": "Station Transfers",
+        "body": "Timely transfers to and from local train stations including Hassocks and Burgess Hill.",
+        "cta": "Book Now",
+        "href": "/services"
+      },
+      {
+        "id": "s6",
+        "icon": "users",
+        "title": "Henfield to Brighton",
+        "body": "Regular taxi runs from Henfield to Brighton city centre, the seafront and beyond.",
+        "cta": "Book Now",
+        "href": "/services"
+      },
+      {
+        "id": "s7",
+        "icon": "heart",
+        "title": "Medical Appointments",
+        "body": "Reliable transport to hospitals, clinics and medical appointments across West Sussex.",
+        "cta": "Book Now",
+        "href": "/services"
+      },
+      {
+        "id": "s8",
+        "icon": "star",
+        "title": "Special Occasions",
+        "body": "Weddings, proms, nights out and events — arrive in style with Western Cars.",
+        "cta": "Book Now",
+        "href": "/services"
+      }
+    ]
+  },
+  "airports": {
+    "heading": "Airport Transfers from Henfield",
+    "subheading": "Pre-booked, fixed-price transfers to all major London and South East airports.",
+    "items": [
+      {
+        "id": "a1",
+        "name": "Gatwick Airport",
+        "desc": "The most popular airport transfer from Henfield — fast, reliable and competitively priced.",
+        "href": "/airport-transfers/gatwick"
+      },
+      {
+        "id": "a2",
+        "name": "Heathrow Airport",
+        "desc": "Comfortable Henfield to Heathrow transfers — all terminals covered, fixed prices.",
+        "href": "/airport-transfers/heathrow"
+      },
+      {
+        "id": "a3",
+        "name": "Stansted Airport",
+        "desc": "Early morning or late night — we get you to Stansted on time, every time.",
+        "href": "/airport-transfers/stansted"
+      },
+      {
+        "id": "a4",
+        "name": "Luton Airport",
+        "desc": "Reliable Henfield to Luton transfers with meet-and-greet available.",
+        "href": "/airport-transfers/luton"
+      },
+      {
+        "id": "a5",
+        "name": "London City Airport",
+        "desc": "Business-class transfers from Henfield to London City Airport.",
+        "href": "/airport-transfers/london-city"
+      }
+    ]
+  },
+  "vehicles": {
+    "heading": "Our Fleet",
+    "subheading": "Clean, comfortable and well-maintained vehicles for every journey.",
+    "items": [
+      {
+        "id": "v1",
+        "category": "Saloon",
+        "passengers": "Up to 4 passengers",
+        "luggage": "2–3 suitcases",
+        "desc": "Comfortable saloon cars for local journeys and airport transfers."
+      },
+      {
+        "id": "v2",
+        "category": "Estate",
+        "passengers": "Up to 4 passengers",
+        "luggage": "3–4 suitcases",
+        "desc": "Extra boot space — ideal for families or longer trips with more luggage."
+      },
+      {
+        "id": "v3",
+        "category": "MPV / People Carrier",
+        "passengers": "Up to 6 passengers",
+        "luggage": "4–5 suitcases",
+        "desc": "Spacious people carriers for groups, families and larger parties."
+      },
+      {
+        "id": "v4",
+        "category": "Executive",
+        "passengers": "Up to 4 passengers",
+        "luggage": "2–3 suitcases",
+        "desc": "Premium executive vehicles for business travel and special occasions."
+      }
+    ]
+  },
+  "team": {
+    "heading": "Professional Local Drivers",
+    "subheading": "Experienced, licensed and committed to your comfort.",
+    "body": "All Western Cars drivers are fully licensed by Horsham District Council, DBS checked and trained to provide a professional, courteous service. Our local knowledge means you always get the most efficient route.",
+    "cta": "Book Your Taxi"
+  },
+  "about": {
+    "heading": "Henfield's Trusted Taxi Company",
+    "body": "Western Cars has been serving Henfield and the surrounding West Sussex villages for years. As a local, independent taxi company we pride ourselves on reliability, professionalism and a personal service that national apps simply can't match.",
+    "cta": "About Western Cars"
+  },
+  "areas": {
+    "heading": "Areas We Cover",
+    "subheading": "Serving Henfield and the surrounding West Sussex villages.",
+    "locations": [
+      "Henfield",
+      "Steyning",
+      "Bramber",
+      "Small Dole",
+      "Partridge Green",
+      "Cowfold",
+      "Shoreham-by-Sea",
+      "Horsham",
+      "Brighton",
+      "Burgess Hill",
+      "Hassocks",
+      "Hurstpierpoint",
+      "Albourne",
+      "Woodmancote",
+      "Fulking",
+      "Poynings",
+      "Edburton",
+      "Upper Beeding"
+    ],
+    "cta": "View All Areas"
+  },
+  "app": {
+    "heading": "Book Your Henfield Taxi on the Go",
+    "body": "Download the Western Cars app for instant booking, live tracking and easy payment. Available on iOS and Android.",
+    "appStoreLabel": "App Store",
+    "googlePlayLabel": "Google Play"
+  },
+  "faq": {
+    "heading": "Frequently Asked Questions",
+    "items": [
+      {
+        "id": "f1",
+        "question": "How do I book a taxi in Henfield?",
+        "answer": "Call our Henfield taxis number on 01273 588080, book online at westerncars.webbooker.icabbi.com, or message us on WhatsApp. We accept bookings 24/7."
+      },
+      {
+        "id": "f2",
+        "question": "How much is a taxi from Henfield to Brighton?",
+        "answer": "Prices vary depending on time of day and vehicle type. Call 01273 588080 or book online for a fixed-price quote for your Henfield to Brighton journey."
+      },
+      {
+        "id": "f3",
+        "question": "How much is a taxi from Henfield to Gatwick?",
+        "answer": "We offer fixed-price Henfield to Gatwick transfers. Call 01273 588080 or book online for an instant quote — no surge pricing, no surprises."
+      },
+      {
+        "id": "f4",
+        "question": "Do you do Henfield to Heathrow airport transfers?",
+        "answer": "Yes — we provide pre-booked Henfield to Heathrow transfers covering all terminals. Book online or call 01273 588080."
+      },
+      {
+        "id": "f5",
+        "question": "Are your drivers licensed?",
+        "answer": "Yes. All Western Cars drivers are fully licensed by Horsham District Council and DBS checked for your peace of mind."
+      },
+      {
+        "id": "f6",
+        "question": "Do you operate 24 hours a day?",
+        "answer": "Yes — Western Cars operates 24 hours a day, 7 days a week, 365 days a year including bank holidays."
+      },
+      {
+        "id": "f7",
+        "question": "Which airports do you cover from Henfield?",
+        "answer": "We cover Henfield to Gatwick, Henfield to Heathrow, Stansted, Luton and London City Airport — all at fixed prices."
+      },
+      {
+        "id": "f8",
+        "question": "Do you cover other villages near Henfield?",
+        "answer": "Yes — we cover Steyning, Bramber, Small Dole, Partridge Green, Cowfold, Shoreham, Horsham and many more West Sussex locations."
+      }
+    ]
+  },
+  "finalCta": {
+    "heading": "Ready to Book Your Henfield Taxi?",
+    "body": "Book online in minutes, call our Henfield taxis number on 01273 588080, or send a WhatsApp message. Western Cars — taxi in Henfield, available 24/7."
+  }
+}

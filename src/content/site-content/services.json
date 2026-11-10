@@ -1,0 +1,68 @@
+{
+  "hero": {
+    "heading": "Taxi Services in Henfield",
+    "body": "Professional taxi and private-hire services across Henfield and West Sussex. Book online, by phone or via WhatsApp."
+  },
+  "services": [
+    {
+      "id": "s1",
+      "icon": "car",
+      "title": "Local Taxi Service",
+      "desc": "Reliable local taxi journeys across Henfield, Steyning, Hurstpierpoint and surrounding West Sussex villages. Whether you need a quick trip to the shops or a longer local journey, Western Cars is here to help.",
+      "img": "/images/site/pages-services-local-taxi.jpg"
+    },
+    {
+      "id": "s2",
+      "icon": "plane",
+      "title": "Airport Transfers",
+      "desc": "Pre-booked airport transfers from Henfield to Gatwick, Heathrow, Stansted, Luton and London City Airport. Arrive on time, every time, with a professional driver tracking your flight.",
+      "img": "/images/site/pages-home-hero-airport-transfer.jpg"
+    },
+    {
+      "id": "s3",
+      "icon": "train",
+      "title": "Station Transfers",
+      "desc": "Timely transfers to and from local train stations including Hassocks, Burgess Hill, Haywards Heath and beyond. Never miss a train with a pre-booked Western Cars transfer.",
+      "img": "/images/site/pages-home-hero-taxi-road.jpg"
+    },
+    {
+      "id": "s4",
+      "icon": "map-pin",
+      "title": "Private Hire",
+      "desc": "Flexible private hire for any occasion. Whether it is a day out, a medical appointment or a special trip, Western Cars provides comfortable, professional private hire across West Sussex.",
+      "img": "/images/site/pages-home-vehicles-fleet.jpg"
+    },
+    {
+      "id": "s5",
+      "icon": "globe",
+      "title": "Long Distance Journeys",
+      "desc": "Comfortable long-distance private hire journeys across the UK. Sit back and relax while your professional Western Cars driver takes care of the road.",
+      "img": "/images/site/pages-home-hero-fleet.jpg"
+    },
+    {
+      "id": "s6",
+      "icon": "briefcase",
+      "title": "Business Travel",
+      "desc": "Professional, punctual transport for business meetings, corporate events and executive travel. Arrive refreshed and on time with Western Cars.",
+      "img": "/images/site/pages-services-business-travel.jpg"
+    },
+    {
+      "id": "s7",
+      "icon": "users",
+      "title": "Group Travel",
+      "desc": "Spacious vehicles for groups and families. Whether you are heading to an event, a day out or an airport, Western Cars can accommodate your group comfortably.",
+      "img": "/images/site/pages-home-drivers-team.jpg"
+    },
+    {
+      "id": "s8",
+      "icon": "star",
+      "title": "Events & Weddings",
+      "desc": "Smart, reliable transport for weddings, celebrations and special occasions. Make your special day even more memorable with a professional Western Cars transfer.",
+      "img": "/images/site/pages-home-taxi-night.jpg"
+    }
+  ],
+  "cta": {
+    "heading": "Ready to Book?",
+    "body": "Choose the booking method that works best for you."
+  }
+}

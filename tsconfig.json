@@ -1,0 +1,86 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "skipLibCheck": true,
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": false,
+    "noFallthroughCasesInSwitch": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@/api/*": [
+        "./src/server/api/*"
+      ],
+      "@/*": [
+        "./src/*"
+      ],
+      "@airo/content": [
+        "./content-lib/src/index.ts"
+      ]
+    },
+    "baseUrl": ".",
+    "allowJs": true,
+    "incremental": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": [
+    "app",
+    "src/site-pages/**/*.ts",
+    "src/site-pages/**/*.tsx",
+    "src/components/**/*.ts",
+    "src/components/**/*.tsx",
+    "src/layouts/parts/**/*.ts",
+    "src/layouts/parts/**/*.tsx",
+    "src/content/**/*.ts",
+    "src/content/**/*.json",
+    "src/lib/**/*.ts",
+    "src/lib/**/*.tsx",
+    "src/styles/**/*.css",
+    ".next/types/**/*.ts",
+    ".next/dev/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "export-plugins",
+    "**/__tests__",
+    "src/__tests__",
+    "src/test",
+    "src/main.tsx",
+    "src/App.tsx",
+    "src/routes.tsx",
+    "src/router.ts",
+    "src/router-hooks.ts",
+    "src/entry-server.tsx",
+    "src/entry-server.test.tsx",
+    "src/server",
+    "src/components/AirportPage.tsx",
+    "src/components/HomepageSameAsJsonLd.tsx",
+    "src/layouts/RootLayout.tsx",
+    "src/site-pages/lp/index.tsx",
+    "src/components/CookieBanner.tsx",
+    "src/lib/format-overrides-store.ts",
+    "src/components/FormattedBoundText.tsx",
+    "src/lib/format-overrides.ts",
+    "src/lib/json-ld-site-url-context.tsx",
+    "src/router.ts",
+    "src/routes.tsx"
+  ]
+}

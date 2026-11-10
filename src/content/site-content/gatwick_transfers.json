@@ -1,0 +1,96 @@
+{
+  "hero": {
+    "eyebrow": "Gatwick Airport Transfers",
+    "heading": "Henfield to Gatwick Airport Transfers",
+    "subheading": "Reliable, fixed-price taxi transfers from Henfield and West Sussex to Gatwick Airport. Available 24/7 with flight monitoring and meet & greet service."
+  },
+  "intro": {
+    "heading": "Your Specialist Gatwick Transfer Service",
+    "paragraphs": [
+      "Western Cars Henfield provides professional, door-to-door taxi transfers between Henfield, the surrounding West Sussex villages, and Gatwick Airport. Whether you're flying from the North or South Terminal, we'll get you there on time — every time.",
+      "We monitor your flight in real time, so if your return flight is delayed, we'll adjust your pick-up accordingly at no extra charge. All fares are fixed and agreed upfront, with no hidden extras or surge pricing."
+    ]
+  },
+  "terminals": {
+    "heading": "Both Gatwick Terminals Covered",
+    "subheading": "We serve both the North and South Terminals with direct, door-to-door transfers.",
+    "items": [
+      {
+        "id": "north",
+        "name": "North Terminal",
+        "description": "Serving airlines including easyJet, TUI, Wizz Air, and many more. We'll drop you directly at the North Terminal departures entrance."
+      },
+      {
+        "id": "south",
+        "name": "South Terminal",
+        "description": "Home to British Airways, Vueling, and other major carriers. We provide direct transfers to and from the South Terminal with no fuss."
+      }
+    ]
+  },
+  "whyUs": {
+    "heading": "Why Choose Western Cars for Your Gatwick Transfer?",
+    "items": [
+      {
+        "id": "fixed",
+        "icon": "pound",
+        "title": "Fixed Fares, No Surprises",
+        "description": "Your price is agreed before you book. No meter running, no surge pricing — just a clear, fixed fare for your Gatwick transfer."
+      },
+      {
+        "id": "flight",
+        "icon": "plane",
+        "title": "Flight Monitoring",
+        "description": "We track your incoming flight in real time. If it's delayed, we adjust your pick-up time automatically so you're never left waiting."
+      },
+      {
+        "id": "247",
+        "icon": "clock",
+        "title": "24/7 Availability",
+        "description": "Early morning departures or late-night arrivals — we operate around the clock, 365 days a year to fit your travel schedule."
+      },
+      {
+        "id": "licensed",
+        "icon": "shield",
+        "title": "Fully Licensed & Insured",
+        "description": "All our drivers are licensed by the local authority and carry full private hire insurance for your complete peace of mind."
+      },
+      {
+        "id": "meetgreet",
+        "icon": "car",
+        "title": "Meet & Greet Available",
+        "description": "On arrival, your driver will meet you in the terminal with a name board, ready to assist with your luggage and get you home quickly."
+      },
+      {
+        "id": "local",
+        "icon": "map",
+        "title": "Local West Sussex Experts",
+        "description": "Based in Henfield, we know every route across West Sussex. We'll choose the fastest, most reliable way to get you to Gatwick on time."
+      }
+    ]
+  },
+  "coverage": {
+    "heading": "Areas We Cover for Gatwick Transfers",
+    "subheading": "We collect from Henfield and all surrounding villages across West Sussex.",
+    "areas": [
+      "Henfield",
+      "Billingshurst",
+      "Rudgwick",
+      "Southwater",
+      "Warnham",
+      "Broadbridge Heath",
+      "Cowfold",
+      "Partridge Green",
+      "Steyning",
+      "Storrington",
+      "Pulborough",
+      "Horsham",
+      "Burgess Hill",
+      "Haywards Heath"
+    ]
+  },
+  "cta": {
+    "heading": "Book Your Gatwick Transfer Today",
+    "subheading": "Call us any time to get a fixed quote and secure your booking.",
+    "buttonLabel": "Call 01273 588080"
+  }
+}

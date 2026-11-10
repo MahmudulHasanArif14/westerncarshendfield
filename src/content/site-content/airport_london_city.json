@@ -1,0 +1,34 @@
+{
+  "hero": {
+    "heading": "Henfield to London City Airport Taxi",
+    "body": "Pre-book your taxi transfer from Henfield to London City Airport with Western Cars."
+  },
+  "sections": [
+    {
+      "id": "sec1",
+      "heading": "Taxi from Henfield to London City Airport",
+      "body": "Western Cars provides pre-booked taxi transfers from Henfield to London City Airport. Ideal for business travellers, our professional drivers will ensure you arrive on time and in comfort."
+    },
+    {
+      "id": "sec2",
+      "heading": "London City Airport Pickup",
+      "body": "Returning from London City Airport? Pre-book your return transfer with Western Cars. Our drivers monitor your flight arrival so they are ready when you land."
+    }
+  ],
+  "faq": [
+    {
+      "id": "f1",
+      "question": "How do I book a taxi from Henfield to London City Airport?",
+      "answer": "Book online at westerncars.webbooker.icabbi.com, call 01273 588080, or message on WhatsApp to 07722 489859."
+    },
+    {
+      "id": "f2",
+      "question": "Can I book a return transfer from London City Airport to Henfield?",
+      "answer": "Yes. Pre-book your return transfer and your driver will monitor your flight arrival time."
+    }
+  ],
+  "cta": {
+    "heading": "Book Your London City Transfer",
+    "body": "Pre-book your Henfield to London City Airport taxi today."
+  }
+}

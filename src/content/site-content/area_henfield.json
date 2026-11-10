@@ -1,0 +1,45 @@
+{
+  "hero": {
+    "heading": "Taxi in Henfield, West Sussex",
+    "body": "Western Cars provides reliable taxi and private-hire services in Henfield. Local journeys, Henfield to Brighton, Henfield to Gatwick and all major airports. Available 24/7 — call our Henfield taxis number: 01273 588080."
+  },
+  "intro": {
+    "heading": "Henfield Taxis — Your Local Taxi Service",
+    "body": "Western Cars is based in Henfield and is the area's trusted taxi company. Whether you need a taxi in Henfield for a local errand, a taxi from Henfield to Brighton for a night out, a Henfield to Gatwick airport transfer, or a Henfield to Heathrow run for an early flight — our experienced local drivers are ready around the clock. Call our Henfield taxis number on 01273 588080 or book online any time."
+  },
+  "airports": {
+    "heading": "Airport Transfers from Henfield",
+    "body": "Pre-book your airport transfer from Henfield with Western Cars. We cover Henfield to Gatwick, Henfield to Heathrow, Stansted, Luton and London City Airport — all at fixed prices with no hidden charges."
+  },
+  "faq": [
+    {
+      "id": "f1",
+      "question": "How do I book a taxi in Henfield?",
+      "answer": "Book online at westerncars.webbooker.icabbi.com, call our Henfield taxis number on 01273 588080, or send a WhatsApp message to 07722 489859. We accept bookings 24/7."
+    },
+    {
+      "id": "f2",
+      "question": "Does Western Cars cover Henfield BN5?",
+      "answer": "Yes. Western Cars is based in Henfield and covers the BN5 area and all surrounding villages."
+    },
+    {
+      "id": "f3",
+      "question": "How much is a taxi from Henfield to Brighton?",
+      "answer": "Prices vary depending on time of day and vehicle. Call 01273 588080 or book online for a fixed-price quote for your Henfield to Brighton journey."
+    },
+    {
+      "id": "f4",
+      "question": "How much is a taxi from Henfield to Gatwick?",
+      "answer": "We offer fixed-price Henfield to Gatwick transfers. Call 01273 588080 or book online for an instant quote — no surge pricing, no surprises."
+    },
+    {
+      "id": "f5",
+      "question": "Do you do Henfield to Heathrow airport transfers?",
+      "answer": "Yes. We provide pre-booked Henfield to Heathrow transfers covering all terminals. Book online or call our Henfield taxis number on 01273 588080."
+    }
+  ],
+  "cta": {
+    "heading": "Book Your Henfield Taxi",
+    "body": "Ready to travel? Book online, call our Henfield taxis number on 01273 588080, or send a WhatsApp message."
+  }
+}

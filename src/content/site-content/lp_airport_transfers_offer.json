@@ -1,0 +1,53 @@
+{
+  "hero": {
+    "badge": "Airport Transfers — Book Online",
+    "heading": "Your Airport Transfer,",
+    "headingAccent": "Sorted.",
+    "subheading": "Professional, pre-booked transfers from Henfield to all major London airports. Fixed prices. No stress. Every time.",
+    "ctaBook": "Book Your Transfer",
+    "ctaCall": "Call"
+  },
+  "countdown": {
+    "activeLabel": "Limited availability — book before this offer ends",
+    "upcomingLabel": "This offer opens in",
+    "expiredText": "This promotion has ended — but we are always taking bookings.",
+    "expiredCta": "Book your transfer now"
+  },
+  "airports": {
+    "heading": "We Cover All Major London Airports",
+    "subheading": "From Henfield and across West Sussex — wherever you are flying from, we will get you there."
+  },
+  "features": {
+    "heading": "Why Passengers Choose Western Cars",
+    "subheading": "Trusted by hundreds of local passengers every year for reliable, professional airport transfers."
+  },
+  "cta": {
+    "heading": "Ready to Book Your Transfer?",
+    "subheading": "Book online in minutes or call us directly — we are available 24/7.",
+    "ctaBook": "Book Online Now",
+    "ctaWhatsapp": "WhatsApp",
+    "callPrefix": "Or call us:"
+  },
+  "trust": [
+    {
+      "id": "t1",
+      "val": "15+",
+      "label": "Years serving West Sussex"
+    },
+    {
+      "id": "t2",
+      "val": "5★",
+      "label": "Rated on Google"
+    },
+    {
+      "id": "t3",
+      "val": "24/7",
+      "label": "Available any time"
+    },
+    {
+      "id": "t4",
+      "val": "5",
+      "label": "Airports covered"
+    }
+  ]
+}

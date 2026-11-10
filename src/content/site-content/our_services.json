@@ -1,0 +1,123 @@
+{
+  "hero": {
+    "eyebrow": "Our Services",
+    "heading": "Professional Taxi & Private Hire Services",
+    "subheading": "From airport transfers to local journeys, corporate travel to special occasions — Western Cars Henfield has you covered, 24 hours a day, 7 days a week."
+  },
+  "intro": {
+    "heading": "Serving Henfield & West Sussex Since 2007",
+    "paragraphs": [
+      "Western Cars Henfield is a fully licensed private hire operator providing a comprehensive range of taxi and transfer services across Henfield and the wider West Sussex area. Whether you need a quick local run or a long-distance airport transfer, our professional drivers are ready to help.",
+      "All our vehicles are modern, clean, and comfortable. Every fare is fixed and agreed upfront — no meters, no surprises. Simply call us any time on 01273 588080 to get a quote or make a booking."
+    ]
+  },
+  "services": [
+    {
+      "id": "airport-transfers",
+      "icon": "plane",
+      "title": "Airport Transfers",
+      "description": "Fixed-price transfers to all major UK airports including Heathrow, Gatwick, Luton, Stansted, and Southampton. We monitor your flight and adjust pick-up times for delays at no extra charge.",
+      "href": "/airport-transfers"
+    },
+    {
+      "id": "local-taxi",
+      "icon": "car",
+      "title": "Local Taxi Journeys",
+      "description": "Need a reliable local taxi in Henfield or the surrounding villages? We cover all local journeys across West Sussex with prompt, professional service day or night.",
+      "href": "/contact-us"
+    },
+    {
+      "id": "corporate",
+      "icon": "briefcase",
+      "title": "Corporate Travel",
+      "description": "Professional, punctual transport for business travellers. We offer account facilities for regular corporate clients, ensuring a consistent, high-quality service every time.",
+      "href": "/contact-us"
+    },
+    {
+      "id": "events",
+      "icon": "star",
+      "title": "Events & Special Occasions",
+      "description": "Weddings, parties, concerts, sporting events — we'll get you there and back in comfort. Pre-book your event transport to guarantee availability on your special day.",
+      "href": "/contact-us"
+    },
+    {
+      "id": "seaport",
+      "icon": "anchor",
+      "title": "Seaport Transfers",
+      "description": "Cruise departures and arrivals at Southampton and Portsmouth ports. We'll ensure you reach your ship on time with all your luggage, or collect you on your return.",
+      "href": "/contact-us"
+    },
+    {
+      "id": "longdistance",
+      "icon": "map",
+      "title": "Long Distance Journeys",
+      "description": "Need to travel further afield? We cover long-distance journeys across the UK. All fares are fixed and agreed before you travel — no nasty surprises at the end of your trip.",
+      "href": "/contact-us"
+    },
+    {
+      "id": "school",
+      "icon": "users",
+      "title": "School Runs & Medical Trips",
+      "description": "Regular school runs and hospital or medical appointment transfers. Reliable, punctual, and caring — we understand how important these journeys are.",
+      "href": "/contact-us"
+    },
+    {
+      "id": "nightout",
+      "icon": "moon",
+      "title": "Nights Out",
+      "description": "Enjoy your evening without worrying about getting home. Book a return taxi for your night out and travel safely with a licensed, professional driver.",
+      "href": "/contact-us"
+    }
+  ],
+  "whyUs": {
+    "heading": "Why Choose Western Cars?",
+    "items": [
+      {
+        "id": "fixed",
+        "icon": "pound",
+        "title": "Fixed Fares",
+        "description": "All prices are agreed upfront. No meters, no surge pricing — just a clear, honest fare every time."
+      },
+      {
+        "id": "247",
+        "icon": "clock",
+        "title": "24/7 Availability",
+        "description": "We operate around the clock, 365 days a year. Early morning, late night — we're always available."
+      },
+      {
+        "id": "licensed",
+        "icon": "shield",
+        "title": "Fully Licensed",
+        "description": "All drivers are licensed by the local authority and carry full private hire insurance for your peace of mind."
+      }
+    ]
+  },
+  "coverage": {
+    "heading": "Areas We Cover",
+    "subheading": "Based in Henfield, we serve the whole of West Sussex and beyond.",
+    "areas": [
+      "Henfield",
+      "Billingshurst",
+      "Rudgwick",
+      "Southwater",
+      "Warnham",
+      "Broadbridge Heath",
+      "Cowfold",
+      "Partridge Green",
+      "Steyning",
+      "Storrington",
+      "Pulborough",
+      "Horsham",
+      "Burgess Hill",
+      "Haywards Heath",
+      "Brighton",
+      "Worthing",
+      "Crawley"
+    ]
+  },
+  "cta": {
+    "heading": "Ready to Book?",
+    "subheading": "Call us any time for a fixed quote and instant booking.",
+    "buttonLabel": "Call 01273 588080"
+  }
+}

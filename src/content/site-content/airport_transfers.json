@@ -1,0 +1,108 @@
+{
+  "hero": {
+    "eyebrow": "Heathrow transfers specialist",
+    "heading": "Heathrow Airport Transfers from Henfield",
+    "subheading": "Professional, reliable taxi and private hire transfers from Henfield and the surrounding villages to Heathrow Airport — available 24 hours a day, 7 days a week."
+  },
+  "intro": {
+    "heading": "Your Local Heathrow Transfer Specialist",
+    "paragraphs": [
+      "Western Cars Henfield has been providing trusted airport transfer services from Henfield, Billingshurst, Cowfold, Southwater and the wider West Sussex area for many years. We specialise in Heathrow Airport transfers, offering a stress-free, punctual service so you can travel with complete confidence.",
+      "Whether you're heading to Terminal 2, 3, 4 or 5, our experienced drivers know the fastest routes and will monitor your flight in real time to adjust pick-up times if your flight is delayed. We take the hassle out of airport travel."
+    ]
+  },
+  "terminals": {
+    "heading": "All Heathrow Terminals Covered",
+    "subheading": "We serve every terminal at London Heathrow Airport.",
+    "items": [
+      {
+        "id": "t1",
+        "name": "Terminal 2",
+        "description": "The Queen's Terminal — home to Star Alliance carriers including United, Lufthansa, and Air New Zealand."
+      },
+      {
+        "id": "t2",
+        "name": "Terminal 3",
+        "description": "Serving long-haul routes with airlines including American Airlines, Emirates, and Virgin Atlantic."
+      },
+      {
+        "id": "t3",
+        "name": "Terminal 4",
+        "description": "Serving a range of international carriers including Malaysia Airlines and Saudi Arabian Airlines."
+      },
+      {
+        "id": "t4",
+        "name": "Terminal 5",
+        "description": "British Airways' dedicated terminal — the UK's busiest single-airline terminal."
+      }
+    ]
+  },
+  "whyUs": {
+    "heading": "Why Choose Western Cars for Your Heathrow Transfer?",
+    "items": [
+      {
+        "id": "w1",
+        "icon": "clock",
+        "title": "24/7 Availability",
+        "description": "Early morning departures or late-night arrivals — we're available around the clock, every day of the year."
+      },
+      {
+        "id": "w2",
+        "icon": "shield",
+        "title": "Licensed & Insured",
+        "description": "All our drivers are fully licensed by the local authority and carry full private hire insurance for your peace of mind."
+      },
+      {
+        "id": "w3",
+        "icon": "pound",
+        "title": "Fixed Competitive Rates",
+        "description": "No surge pricing, no hidden extras. You'll always know the cost of your journey before you book."
+      },
+      {
+        "id": "w4",
+        "icon": "plane",
+        "title": "Flight Monitoring",
+        "description": "We track your flight in real time and adjust your pick-up time automatically if your flight is delayed."
+      },
+      {
+        "id": "w5",
+        "icon": "car",
+        "title": "Modern Fleet",
+        "description": "Travel in comfort in our well-maintained, clean vehicles — saloons, estates, and larger vehicles available."
+      },
+      {
+        "id": "w6",
+        "icon": "map",
+        "title": "Local Knowledge",
+        "description": "Based in Henfield, our drivers know every route across West Sussex to get you to the airport on time."
+      }
+    ]
+  },
+  "areas": {
+    "heading": "Areas We Cover",
+    "subheading": "We provide Heathrow transfers from Henfield and all surrounding areas including:",
+    "locations": [
+      "Henfield",
+      "Billingshurst",
+      "Cowfold",
+      "Southwater",
+      "Partridge Green",
+      "Steyning",
+      "Bramber",
+      "Shoreham-by-Sea",
+      "Horsham",
+      "Burgess Hill",
+      "Haywards Heath",
+      "Hurstpierpoint",
+      "Hassocks",
+      "Warnham",
+      "Rudgwick"
+    ]
+  },
+  "cta": {
+    "heading": "Book Your Heathrow Transfer Today",
+    "subheading": "Call us now to get a fixed quote for your airport transfer. We're available 24/7.",
+    "phone": "01273 588080",
+    "buttonLabel": "Call 01273 588080"
+  }
+}

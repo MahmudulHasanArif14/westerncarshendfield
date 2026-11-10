@@ -1,0 +1,117 @@
+{
+  "hero": {
+    "heading": "Areas We Cover",
+    "body": "Western Cars provides taxi and private-hire services across Henfield and the surrounding West Sussex area."
+  },
+  "intro": "Western Cars serves Henfield and a wide range of surrounding towns and villages in West Sussex. Whether you need a local journey, an airport transfer or a longer-distance trip, we are here to help.",
+  "locations": [
+    {
+      "id": "l1",
+      "name": "Henfield",
+      "desc": "Our home base. Local taxi and private hire across Henfield and BN5.",
+      "href": "/areas-we-cover/henfield"
+    },
+    {
+      "id": "l2",
+      "name": "Steyning",
+      "desc": "Taxi service from Steyning and surrounding villages.",
+      "href": "/areas-we-cover/steyning"
+    },
+    {
+      "id": "l3",
+      "name": "Hurstpierpoint",
+      "desc": "Local taxi and airport transfers from Hurstpierpoint.",
+      "href": "/areas-we-cover/hurstpierpoint"
+    },
+    {
+      "id": "l4",
+      "name": "Burgess Hill",
+      "desc": "Taxi service from Burgess Hill including station transfers.",
+      "href": "/areas-we-cover/burgess-hill"
+    },
+    {
+      "id": "l5",
+      "name": "Haywards Heath",
+      "desc": "Local taxi and airport transfers from Haywards Heath.",
+      "href": "/areas-we-cover/haywards-heath"
+    },
+    {
+      "id": "l6",
+      "name": "Brighton",
+      "desc": "Taxi service to and from Brighton.",
+      "href": "/areas-we-cover/brighton"
+    },
+    {
+      "id": "l7",
+      "name": "Horsham",
+      "desc": "Taxi service from Horsham and surrounding areas.",
+      "href": "/areas-we-cover/horsham"
+    },
+    {
+      "id": "l8",
+      "name": "Hassocks",
+      "desc": "Local taxi and station transfers from Hassocks.",
+      "href": "/areas-we-cover/hassocks"
+    },
+    {
+      "id": "l9",
+      "name": "Hove",
+      "desc": "Taxi service to and from Hove.",
+      "href": "/areas-we-cover/hove"
+    },
+    {
+      "id": "l10",
+      "name": "Shoreham-by-Sea",
+      "desc": "Taxi service from Shoreham-by-Sea.",
+      "href": "/areas-we-cover/shoreham-by-sea"
+    },
+    {
+      "id": "l11",
+      "name": "Worthing",
+      "desc": "Taxi service to and from Worthing.",
+      "href": "/areas-we-cover/worthing"
+    },
+    {
+      "id": "l12",
+      "name": "Crawley",
+      "desc": "Taxi service from Crawley and Gatwick area.",
+      "href": "/areas-we-cover/crawley"
+    },
+    {
+      "id": "l13",
+      "name": "Billingshurst",
+      "desc": "Taxi service from Billingshurst.",
+      "href": "/areas-we-cover/billingshurst"
+    },
+    {
+      "id": "l14",
+      "name": "Partridge Green",
+      "desc": "Local taxi from Partridge Green.",
+      "href": "/areas-we-cover/partridge-green"
+    },
+    {
+      "id": "l15",
+      "name": "Cowfold",
+      "desc": "Local taxi from Cowfold.",
+      "href": "/areas-we-cover/cowfold"
+    },
+    {
+      "id": "l16",
+      "name": "Albourne",
+      "desc": "Local taxi from Albourne.",
+      "href": "/areas-we-cover/albourne"
+    },
+    {
+      "id": "l17",
+      "name": "Small Dole",
+      "desc": "Local taxi from Small Dole.",
+      "href": "/areas-we-cover/small-dole"
+    },
+    {
+      "id": "l18",
+      "name": "Woodmancote",
+      "desc": "Local taxi from Woodmancote.",
+      "href": "/areas-we-cover/woodmancote"
+    }
+  ]
+}

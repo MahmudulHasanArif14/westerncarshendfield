@@ -1,0 +1,68 @@
+{
+  "hero": {
+    "heading": "Frequently Asked Questions",
+    "body": "Everything you need to know about booking a taxi with Western Cars Henfield."
+  },
+  "items": [
+    {
+      "id": "f1",
+      "question": "How do I book a taxi in Henfield?",
+      "answer": "You can book online at westerncars.webbooker.icabbi.com, call 01273 588080, or send a message on WhatsApp to 07722 489859."
+    },
+    {
+      "id": "f2",
+      "question": "Does Western Cars provide airport transfers from Henfield?",
+      "answer": "Yes. We provide pre-booked airport transfers from Henfield to Gatwick, Heathrow, Stansted, Luton and London City Airport."
+    },
+    {
+      "id": "f3",
+      "question": "Can I book a Gatwick taxi from Henfield?",
+      "answer": "Yes. We cover both the North and South Terminals at Gatwick Airport. Pre-book online or by phone."
+    },
+    {
+      "id": "f4",
+      "question": "Can I book a Heathrow taxi from Henfield?",
+      "answer": "Yes. All five Heathrow terminals are covered. Pre-book online at westerncars.webbooker.icabbi.com or call 01273 588080."
+    },
+    {
+      "id": "f5",
+      "question": "Can I book via WhatsApp?",
+      "answer": "Yes. Send a message to 07722 489859 on WhatsApp to arrange your booking."
+    },
+    {
+      "id": "f6",
+      "question": "Can I book online?",
+      "answer": "Yes. Book online at westerncars.webbooker.icabbi.com at any time."
+    },
+    {
+      "id": "f7",
+      "question": "Is there a Western Cars app?",
+      "answer": "Yes. Download the Western Cars app from the App Store or Google Play to book quickly from your phone."
+    },
+    {
+      "id": "f8",
+      "question": "Is Western Cars available 24 hours?",
+      "answer": "Yes. Western Cars operates 24 hours a day, 7 days a week, including bank holidays."
+    },
+    {
+      "id": "f9",
+      "question": "What areas does Western Cars Henfield cover?",
+      "answer": "We serve Henfield and surrounding areas including Steyning, Hurstpierpoint, Burgess Hill, Haywards Heath, Brighton, Hove, Horsham, Worthing and more."
+    },
+    {
+      "id": "f10",
+      "question": "How do I contact Western Cars?",
+      "answer": "Call 01273 588080, send a WhatsApp message to 07722 489859, or book online at westerncars.webbooker.icabbi.com."
+    },
+    {
+      "id": "f11",
+      "question": "Can I book a station transfer?",
+      "answer": "Yes. We provide transfers to and from local train stations including Hassocks, Burgess Hill and Haywards Heath."
+    },
+    {
+      "id": "f12",
+      "question": "Do you provide business travel?",
+      "answer": "Yes. Western Cars provides professional, punctual transport for business meetings and corporate travel."
+    }
+  ]
+}

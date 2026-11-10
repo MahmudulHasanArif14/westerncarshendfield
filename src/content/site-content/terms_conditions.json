@@ -1,0 +1,180 @@
+{
+  "hero": {
+    "heading": "Terms & Conditions",
+    "subheading": "Please read these terms carefully before using our taxi and private hire services."
+  },
+  "lastUpdated": "1 October 2026",
+  "companyName": "Western Cars Henfield Ltd",
+  "companyNumber": "16038694",
+  "address": "Coopers Way, Henfield, West Sussex, BN5 9EQ",
+  "phone": "01273 588080",
+  "email": "info@westerncars.co.uk",
+  "sections": [
+    {
+      "id": "s1",
+      "heading": "1. About Us",
+      "body": [
+        {
+          "id": "p1",
+          "text": "Western Cars Henfield Ltd (company number 16038694) is a licensed private hire operator based at Coopers Way, Henfield, West Sussex, BN5 9EQ. We are licensed by the relevant local authority to provide private hire and taxi services."
+        },
+        {
+          "id": "p2",
+          "text": "By booking a journey with us — whether by telephone, email, website, or app — you agree to be bound by these Terms & Conditions."
+        }
+      ]
+    },
+    {
+      "id": "s2",
+      "heading": "2. Bookings",
+      "body": [
+        {
+          "id": "p1",
+          "text": "All bookings must be made in advance. A booking is confirmed once you have received confirmation from us by telephone or other means. We reserve the right to decline any booking at our discretion."
+        },
+        {
+          "id": "p2",
+          "text": "It is your responsibility to provide accurate pick-up and drop-off details, including flight numbers for airport transfers. We cannot be held responsible for delays or missed journeys resulting from incorrect information."
+        },
+        {
+          "id": "p3",
+          "text": "For airport transfers, we monitor flight arrival times and will adjust pick-up times accordingly where possible. However, we cannot guarantee availability in all circumstances."
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "heading": "3. Fares & Payment",
+      "body": [
+        {
+          "id": "p1",
+          "text": "All fares are fixed and agreed at the time of booking. The fare quoted includes the journey only; parking charges, tolls, or other additional costs may be added where applicable and will be communicated to you in advance where possible."
+        },
+        {
+          "id": "p2",
+          "text": "Payment is due on completion of the journey unless otherwise agreed. We accept cash and card payments. Prices are subject to change; the fare confirmed at the time of booking will apply to that journey."
+        },
+        {
+          "id": "p3",
+          "text": "Waiting time charges may apply where a driver is kept waiting beyond a reasonable period. Our driver will inform you of any applicable waiting charges."
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "heading": "4. Cancellations",
+      "body": [
+        {
+          "id": "p1",
+          "text": "You may cancel a booking by contacting us as soon as possible by telephone on 01273 588080. Cancellations made with reasonable notice will not incur a charge."
+        },
+        {
+          "id": "p2",
+          "text": "Cancellations made with short notice or after a driver has been dispatched may be subject to a cancellation fee to cover the driver's time and fuel costs. We will inform you of any applicable charge at the time of cancellation."
+        },
+        {
+          "id": "p3",
+          "text": "We reserve the right to cancel a booking in exceptional circumstances, including severe weather, vehicle breakdown, or events beyond our reasonable control. In such cases, we will endeavour to provide as much notice as possible and will not charge a cancellation fee."
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "heading": "5. Passenger Conduct",
+      "body": [
+        {
+          "id": "p1",
+          "text": "Passengers are expected to behave in a respectful and lawful manner at all times. Our drivers reserve the right to refuse to carry any passenger who is behaving in an abusive, threatening, or disorderly manner, or who is under the influence of alcohol or drugs to a degree that may cause a nuisance or risk to the driver or vehicle."
+        },
+        {
+          "id": "p2",
+          "text": "Smoking, including the use of e-cigarettes, is strictly prohibited in all our vehicles."
+        },
+        {
+          "id": "p3",
+          "text": "Passengers are responsible for any damage caused to our vehicles during their journey. The cost of cleaning or repair resulting from passenger conduct may be charged to the passenger."
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "heading": "6. Child Seats & Accessibility",
+      "body": [
+        {
+          "id": "p1",
+          "text": "If you require a child seat or have specific accessibility requirements, please inform us at the time of booking. We will do our best to accommodate your needs, subject to availability."
+        },
+        {
+          "id": "p2",
+          "text": "Under UK law, children must use the correct child restraint for their height and weight. It is the responsibility of the accompanying adult to ensure the child is correctly restrained."
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "heading": "7. Lost Property",
+      "body": [
+        {
+          "id": "p1",
+          "text": "We take no responsibility for items left in our vehicles. If you believe you have left property in one of our vehicles, please contact us as soon as possible on 01273 588080 or at info@westerncars.co.uk and we will do our best to locate and return it."
+        },
+        {
+          "id": "p2",
+          "text": "Any unclaimed lost property will be held for a reasonable period before being disposed of or donated to charity."
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "heading": "8. Liability",
+      "body": [
+        {
+          "id": "p1",
+          "text": "We carry full private hire insurance as required by law. Our liability to you is limited to direct losses arising from our negligence or breach of these terms."
+        },
+        {
+          "id": "p2",
+          "text": "We are not liable for any indirect or consequential losses, including missed flights, missed connections, or losses arising from delays caused by traffic, road conditions, or other circumstances beyond our reasonable control."
+        },
+        {
+          "id": "p3",
+          "text": "Nothing in these terms limits or excludes our liability for death or personal injury caused by our negligence, or for fraud or fraudulent misrepresentation."
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "heading": "9. Privacy",
+      "body": [
+        {
+          "id": "p1",
+          "text": "We collect and process personal data in accordance with applicable UK data protection law, including the UK GDPR. Your data is used solely for the purpose of fulfilling your booking and communicating with you about our services."
+        },
+        {
+          "id": "p2",
+          "text": "We do not sell or share your personal data with third parties for marketing purposes. For full details of how we handle your data, please contact us at info@westerncars.co.uk."
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "heading": "10. Governing Law",
+      "body": [
+        {
+          "id": "p1",
+          "text": "These Terms & Conditions are governed by and construed in accordance with the laws of England and Wales. Any disputes arising under these terms shall be subject to the exclusive jurisdiction of the courts of England and Wales."
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "heading": "11. Changes to These Terms",
+      "body": [
+        {
+          "id": "p1",
+          "text": "We reserve the right to update these Terms & Conditions at any time. The current version will always be available on our website. Continued use of our services following any changes constitutes your acceptance of the updated terms."
+        }
+      ]
+    }
+  ]
+}

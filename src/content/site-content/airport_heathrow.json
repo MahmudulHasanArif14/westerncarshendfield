@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "heading": "Henfield to Heathrow Airport Taxi",
+    "body": "Pre-book your taxi transfer from Henfield to Heathrow Airport with Western Cars. All five terminals covered."
+  },
+  "sections": [
+    {
+      "id": "sec1",
+      "heading": "Taxi from Henfield to Heathrow",
+      "body": "Western Cars provides pre-booked taxi transfers from Henfield to Heathrow Airport. All five terminals — T1, T2, T3, T4 and T5 — are served. Our professional drivers will ensure you arrive on time and in comfort."
+    },
+    {
+      "id": "sec2",
+      "heading": "Heathrow Airport Pickup",
+      "body": "Returning from Heathrow? Pre-book your return transfer with Western Cars. Our drivers monitor your flight arrival so they are ready when you land, even if your flight is delayed."
+    },
+    {
+      "id": "sec3",
+      "heading": "Why Pre-book Your Heathrow Transfer?",
+      "body": "Pre-booking your Heathrow taxi ensures a confirmed vehicle is waiting for you. Avoid the uncertainty of finding a taxi at the airport and travel with confidence knowing your transfer is arranged."
+    }
+  ],
+  "faq": [
+    {
+      "id": "f1",
+      "question": "How do I book a taxi from Henfield to Heathrow?",
+      "answer": "Book online at westerncars.webbooker.icabbi.com, call 01273 588080, or message on WhatsApp to 07722 489859."
+    },
+    {
+      "id": "f2",
+      "question": "Which Heathrow terminals does Western Cars cover?",
+      "answer": "All five terminals at Heathrow Airport are covered — T1, T2, T3, T4 and T5."
+    },
+    {
+      "id": "f3",
+      "question": "Can I book a return transfer from Heathrow to Henfield?",
+      "answer": "Yes. Pre-book your return transfer and your driver will monitor your flight arrival time."
+    },
+    {
+      "id": "f4",
+      "question": "How far in advance should I book my Heathrow transfer?",
+      "answer": "We recommend booking as early as possible, especially for early morning flights. You can book online at any time."
+    }
+  ],
+  "cta": {
+    "heading": "Book Your Heathrow Transfer",
+    "body": "Pre-book your Henfield to Heathrow taxi today."
+  }
+}

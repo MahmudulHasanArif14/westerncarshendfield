@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "heading": "Henfield to Gatwick Airport Taxi",
+    "body": "Pre-book your taxi transfer from Henfield to Gatwick Airport with Western Cars. Both North and South Terminals covered."
+  },
+  "sections": [
+    {
+      "id": "sec1",
+      "heading": "Taxi from Henfield to Gatwick",
+      "body": "Western Cars provides pre-booked taxi transfers from Henfield to Gatwick Airport. Whether you are flying from the North or South Terminal, our professional drivers will ensure you arrive on time and in comfort."
+    },
+    {
+      "id": "sec2",
+      "heading": "Gatwick Airport Pickup",
+      "body": "Returning from Gatwick? Pre-book your return transfer with Western Cars. Our drivers monitor your flight arrival so they are ready when you land, even if your flight is delayed."
+    },
+    {
+      "id": "sec3",
+      "heading": "Why Pre-book Your Gatwick Transfer?",
+      "body": "Pre-booking your Gatwick taxi ensures a confirmed vehicle is waiting for you. Avoid the uncertainty of finding a taxi at the airport and travel with confidence knowing your transfer is arranged."
+    }
+  ],
+  "faq": [
+    {
+      "id": "f1",
+      "question": "How do I book a taxi from Henfield to Gatwick?",
+      "answer": "Book online at westerncars.webbooker.icabbi.com, call 01273 588080, or message on WhatsApp to 07722 489859."
+    },
+    {
+      "id": "f2",
+      "question": "Does Western Cars cover both Gatwick terminals?",
+      "answer": "Yes. Both the North Terminal and South Terminal at Gatwick Airport are covered."
+    },
+    {
+      "id": "f3",
+      "question": "Can I book a return transfer from Gatwick to Henfield?",
+      "answer": "Yes. Pre-book your return transfer and your driver will monitor your flight arrival time."
+    },
+    {
+      "id": "f4",
+      "question": "How far in advance should I book?",
+      "answer": "We recommend booking as early as possible, especially for early morning flights. You can book online at any time."
+    }
+  ],
+  "cta": {
+    "heading": "Book Your Gatwick Transfer",
+    "body": "Pre-book your Henfield to Gatwick taxi today."
+  }
+}

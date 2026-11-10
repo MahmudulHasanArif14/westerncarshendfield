@@ -14,6 +14,8 @@ import AreasPage from '@/site-pages/areas-we-cover';
 import HenfieldPage from '@/site-pages/areas-we-cover/henfield';
 import AreaLocationPage from '@/site-pages/areas-we-cover/location';
 import { area_locations } from '@/content';
+import { getHubPosts, getHubPost } from '@/lib/blog-hub';
+import { getPostBySlug } from '@/lib/blog';
 import TermsPage from '@/site-pages/terms-conditions';
 import BlogPage from '@/site-pages/blog/index';
 import BlogPostPage from '@/site-pages/blog/[slug]';
@@ -42,7 +44,12 @@ export default async function RoutePage({ params }: { params: Promise<{ path?: s
     '/blog': BlogPage,
     '/lp/airport-transfers-offer': OfferPage,
   } as Record<string, React.ComponentType>)[route];
-  if (route.startsWith('/blog/') && path.length === 2) return <BlogPostPage />;
+  if (route === '/blog') return <BlogPage hubPosts={await getHubPosts()} />;
+  if (route.startsWith('/blog/') && path.length === 2) {
+    const hubPost = await getHubPost(path[1]);
+    if (!hubPost && !getPostBySlug(path[1])) notFound();
+    return <BlogPostPage hubPost={hubPost} />;
+  }
   if (!Page && path[0] === 'areas-we-cover' && path.length === 2) {
     const location = area_locations.locations.find((l) => l.slug === path[1]);
     if (location) return <AreaLocationPage location={location} />;

@@ -1,12 +1,13 @@
 'use client';
 import Link from 'next/link';
 import { Calendar, Tag } from 'lucide-react';
-import { getBlogPosts } from '@/lib/blog';
+import { getBlogPosts, type BlogPost } from '@/lib/blog';
 import { SITE_URL } from '@/lib/site-constants';
 import { blog_listing as c } from '@/content';
 
-export default function BlogPage() {
-  const posts = getBlogPosts();
+export default function BlogPage({ hubPosts = [] }: { hubPosts?: BlogPost[] }) {
+  const posts = [...hubPosts, ...getBlogPosts().filter((l) => !hubPosts.some((h) => h.slug === l.slug))]
+    .sort((a, b) => +new Date(b.publishedAt) - +new Date(a.publishedAt));
   const pageTitle = 'Blog | Western Cars Henfield';
   const pageDesc  = 'Tips, guides and news from Western Cars Henfield — your local taxi and airport transfer service in West Sussex.';
   const pageUrl   = `${SITE_URL}/blog`;
@@ -21,6 +22,15 @@ export default function BlogPage() {
         <meta property="og:description" content={pageDesc} />
         <meta property="og:url" content={pageUrl} />
         <meta property="og:type" content="website" />
+        <script type="application/ld+json">{JSON.stringify({
+          '@context': 'https://schema.org',
+          '@type': 'Blog',
+          '@id': `${pageUrl}#blog`,
+          url: pageUrl,
+          name: pageTitle,
+          publisher: { '@id': `${SITE_URL}/#organization` },
+          blogPost: posts.slice(0, 20).map((p) => ({ '@type': 'BlogPosting', headline: p.title, url: `${SITE_URL}/blog/${p.slug}`, datePublished: p.publishedAt })),
+        }).replace(/</g, '\u003c')}</script>
       </>
 
       <main>
@@ -41,7 +51,7 @@ export default function BlogPage() {
                       <Link href={`/blog/${post.slug}`} className="block aspect-video overflow-hidden">
                         <img
                           src={post.featuredImage}
-                          alt={post.title}
+                          alt={(post as { imageAlt?: string }).imageAlt || post.title}
                           className="w-full h-full object-cover transition-transform hover:scale-105"
                           loading="lazy"
                           width={600}

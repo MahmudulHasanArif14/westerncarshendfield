@@ -3,12 +3,14 @@ import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { Calendar, ArrowLeft, Tag } from 'lucide-react';
 import { getPostBySlug } from '@/lib/blog';
+import type { HubBlogPost } from '@/lib/blog-hub';
 import { SITE_URL } from '@/lib/site-constants';
 import { blog_listing as c } from '@/content';
 
-export default function BlogPostPage() {
+export default function BlogPostPage({ hubPost }: { hubPost?: HubBlogPost | null }) {
   const { slug } = useParams<{ slug: string }>();
-  const post = slug ? getPostBySlug(slug) : undefined;
+  const post = hubPost ?? (slug ? getPostBySlug(slug) : undefined);
+  const hub = hubPost ?? undefined;
 
   if (!post) {
     return (
@@ -42,17 +44,22 @@ export default function BlogPostPage() {
           headline: post.title,
           description: post.excerpt,
           datePublished: post.publishedAt,
+          dateModified: hub?.updatedAt ?? post.publishedAt,
+          mainEntityOfPage: pageUrl,
+          keywords: post.tags?.join(', '),
+          inLanguage: 'en-GB',
+          ...(hub?.sources.length ? { citation: hub.sources } : {}),
           image: post.featuredImage,
           url: pageUrl,
-          author: { '@type': 'Organization', name: 'Western Cars Henfield' },
-          publisher: { '@type': 'Organization', name: 'Western Cars Henfield', url: SITE_URL },
+          author: { '@type': 'Organization', name: post.author || 'Western Cars Henfield' },
+          publisher: { '@id': `${SITE_URL}/#organization`, '@type': 'Organization', name: 'Western Cars Henfield', url: SITE_URL, logo: `${SITE_URL}/images/site/logo.png` },
         }).replace(/</g, '\\u003c')}</script>
       </>
 
       <main>
         {post.featuredImage && (
           <div className="relative h-64 md:h-96 overflow-hidden">
-            <img src={post.featuredImage} alt={post.title} className="w-full h-full object-cover" loading="eager" fetchPriority="high" width={1200} height={600} />
+            <img src={post.featuredImage} alt={hub?.imageAlt || post.title} className="w-full h-full object-cover" loading="eager" fetchPriority="high" width={1200} height={600} />
             <div className="absolute inset-0 pointer-events-none" style={{ background: 'linear-gradient(to bottom, rgba(11,18,32,0.3), rgba(11,18,32,0.65))' }} />
           </div>
         )}
@@ -83,6 +90,24 @@ export default function BlogPostPage() {
             style={{ '--tw-prose-headings': 'hsl(var(--secondary))', '--tw-prose-links': 'hsl(var(--primary))' } as React.CSSProperties}
             dangerouslySetInnerHTML={{ __html: post.content }}
           />
+
+          {hub?.imageCredit && (
+            <p className="mt-10 text-xs text-muted-foreground">
+              Image: {hub.imageSourceUrl ? <a href={hub.imageSourceUrl} target="_blank" rel="noopener noreferrer nofollow" className="underline">{hub.imageCredit}</a> : hub.imageCredit}
+              {hub.imageLicense && <> · {hub.imageLicenseUrl ? <a href={hub.imageLicenseUrl} target="_blank" rel="noopener noreferrer nofollow" className="underline">{hub.imageLicense}</a> : hub.imageLicense}</>}
+            </p>
+          )}
+
+          {hub && hub.sources.length > 0 && (
+            <aside className="mt-8 border-t border-border pt-6">
+              <h2 className="text-base font-bold mb-3" style={{ color: 'hsl(var(--secondary))' }}>Sources</h2>
+              <ul className="list-disc pl-5 space-y-1 text-sm">
+                {hub.sources.map((u) => (
+                  <li key={u}><a href={u} target="_blank" rel="noopener noreferrer" className="hover:underline break-all" style={{ color: 'hsl(var(--primary))' }}>{u.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, '')}</a></li>
+                ))}
+              </ul>
+            </aside>
+          )}
         </article>
       </main>
     </>

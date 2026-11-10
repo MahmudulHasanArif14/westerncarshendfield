@@ -1,6 +1,9 @@
 import type { MetadataRoute } from 'next';
 import { area_locations, data } from '@/content';
 import { SITE_URL } from '@/lib/site-constants';
+import { getHubPosts } from '@/lib/blog-hub';
+
+export const revalidate = 3600;
 
 const staticRoutes: [string, number][] = [
   ['/', 1],
@@ -21,9 +24,11 @@ const staticRoutes: [string, number][] = [
   ['/terms-conditions', 0.3],
 ];
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const now = new Date();
-  const blogSlugs = (data.blog as { slug?: string }[]).map((p) => p.slug).filter(Boolean) as string[];
+  const hub = await getHubPosts();
+  const localSlugs = (data.blog as { slug?: string }[]).map((p) => p.slug).filter(Boolean) as string[];
+  const blogSlugs = [...new Set([...hub.map((p) => p.slug), ...localSlugs])];
   return [
     ...staticRoutes.map(([path, priority]) => ({ url: `${SITE_URL}${path === '/' ? '/' : path}`, lastModified: now, priority })),
     ...area_locations.locations.map((l) => ({ url: `${SITE_URL}/areas-we-cover/${l.slug}`, lastModified: now, priority: 0.7 })),

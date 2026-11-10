@@ -50,13 +50,10 @@ const jsonLd = {
       description: 'Western Cars Henfield — professional taxi and private hire service in Henfield and West Sussex, specialising in airport transfers to Gatwick, Heathrow, Luton and Stansted.',
       address: {
         '@type': 'PostalAddress',
-        streetAddress: '2 Coopers Way',
         addressLocality: 'Henfield',
         addressRegion: 'West Sussex',
-        postalCode: 'BN5 9EQ',
         addressCountry: 'GB',
       },
-      geo: { '@type': 'GeoCoordinates', latitude: 50.9333, longitude: -0.2667 },
       areaServed: [
         { '@type': 'City', name: 'Henfield' },
         { '@type': 'City', name: 'Billingshurst' },
@@ -608,8 +605,8 @@ export default function HomePage() {
                   <div className="flex items-start gap-3">
                     <MapPin size={20} className="text-primary shrink-0 mt-0.5" />
                     <div>
-                      <p className="font-semibold text-foreground text-sm">Address</p>
-                      <p className="text-muted-foreground text-sm">2 Coopers Way, Henfield, West Sussex, BN5 9EQ</p>
+                      <p className="font-semibold text-foreground text-sm">Based in</p>
+                      <p className="text-muted-foreground text-sm">Henfield, West Sussex. Serving Henfield and the surrounding area 24/7.</p>
                     </div>
                   </div>
                   <div className="flex items-center gap-3">
@@ -646,15 +643,13 @@ export default function HomePage() {
                 </div>
               </div>
               <div className="rounded-sm overflow-hidden shadow-md border border-border h-80">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2516.5!2d-0.2667!3d50.9333!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTDCsDU2JzAwLjAiTiAwwrAxNicwMC4xIlc!5e0!3m2!1sen!2suk!4v1"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  allowFullScreen
+                <img
+                  src="/images/site/pages-home-hero-airport-transfer.jpg"
+                  alt="Western Cars Henfield airport transfer"
+                  className="w-full h-full object-cover"
+                  width={600}
+                  height={320}
                   loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                  title="Western Cars Henfield location map"
                 />
               </div>
             </div>

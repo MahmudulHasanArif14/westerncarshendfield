@@ -6,7 +6,7 @@
   "lastUpdated": "1 October 2026",
   "companyName": "Western Cars Henfield Ltd",
   "companyNumber": "16038694",
-  "address": "Coopers Way, Henfield, West Sussex, BN5 9EQ",
+  "address": "Henfield, West Sussex",
   "phone": "01273 588080",
   "email": "info@westerncars.co.uk",
   "sections": [
@@ -16,7 +16,7 @@
       "body": [
         {
           "id": "p1",
-          "text": "Western Cars Henfield Ltd (company number 16038694) is a licensed private hire operator based at Coopers Way, Henfield, West Sussex, BN5 9EQ. We are licensed by the relevant local authority to provide private hire and taxi services."
+          "text": "Western Cars Henfield Ltd (company number 16038694) is a licensed private hire operator based in Henfield, West Sussex. We are licensed by the relevant local authority to provide private hire and taxi services."
         },
         {
           "id": "p2",

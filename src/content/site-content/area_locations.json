@@ -1,5 +1,5 @@
 {
-  "_note": "Distances are approximate road miles from Western Cars' base at 2 Coopers Way, Henfield BN5 9EQ. Gatwick/Heathrow times are typical off-peak estimates.",
+  "_note": "Distances are approximate road miles from Henfield village centre. Gatwick/Heathrow times are typical off-peak estimates.",
   "locations": [
     { "slug": "steyning", "name": "Steyning", "county": "West Sussex", "postcode": "BN44", "district": "Horsham District", "milesFromHenfield": 5, "station": "Shoreham-by-Sea", "gatwickMins": "40–50", "heathrowMins": "75–90", "nearby": ["Bramber", "Upper Beeding", "Small Dole"], "local": "the historic High Street, Steyning Grammar School and the South Downs Way" },
     { "slug": "hurstpierpoint", "name": "Hurstpierpoint", "county": "West Sussex", "postcode": "BN6", "district": "Mid Sussex", "milesFromHenfield": 5, "station": "Hassocks", "gatwickMins": "35–45", "heathrowMins": "75–90", "nearby": ["Hassocks", "Albourne", "Sayers Common"], "local": "Hurstpierpoint College, the village High Street and Danny House" },

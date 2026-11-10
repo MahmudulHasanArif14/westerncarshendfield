@@ -46,7 +46,7 @@ export default function Footer() {
             <address className="not-italic flex flex-col gap-2">
               <span className="flex items-start gap-2 text-sm text-white/60">
                 <MapPin size={15} className="shrink-0 mt-0.5 text-white/60" />
-                2 Coopers Way, Henfield, West Sussex, BN5 9EQ
+                Henfield, West Sussex
               </span>
               <a href={PHONE_TEL} className="flex items-center gap-2 text-sm text-white/60 hover:text-white transition-colors">
                 <Phone size={15} className="shrink-0 text-white/60" />

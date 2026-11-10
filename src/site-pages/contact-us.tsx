@@ -5,7 +5,7 @@ import { Phone, MessageCircle, Globe, MapPin, Mail, Facebook, CheckCircle2 } fro
 import {
   BOOKING_URL, PHONE_TEL, PHONE_DISPLAY,
   WHATSAPP_URL,
-  FACEBOOK_URL, GOOGLE_MAPS_URL, TRUSTPILOT_URL, SITE_URL } from
+  FACEBOOK_URL, TRUSTPILOT_URL, SITE_URL } from
 '@/lib/site-constants';
 
 const siteUrl = SITE_URL;
@@ -168,7 +168,7 @@ export default function ContactPage() {
     <>
       <>
         <title>Contact Western Cars Henfield | Taxi &amp; Private Hire 01273 588080</title>
-        <meta name="description" content="Contact Western Cars Henfield. Call 01273 588080, WhatsApp 07722 489859, or book online 24/7. Based at 2 Coopers Way, Henfield, West Sussex BN5 9EQ." />
+        <meta name="description" content="Contact Western Cars Henfield. Call 01273 588080, WhatsApp 07722 489859, or book online 24/7." />
         <link rel="canonical" href={pageUrl} />
         <meta property="og:title" content="Contact Western Cars Henfield | Taxi &amp; Private Hire" />
         <meta property="og:description" content="Get in touch with Western Cars Henfield. Call, WhatsApp, book online or send us a message." />
@@ -218,10 +218,8 @@ export default function ContactPage() {
                     <MapPin size={18} />
                   </div>
                   <div>
-                    <p className="font-semibold text-foreground text-sm mb-1">Address</p>
-                    <a href={GOOGLE_MAPS_URL} target="_blank" rel="noopener noreferrer" className="text-sm text-muted-foreground hover:text-primary transition-colors">
-                      {contact.details.address}
-                    </a>
+                    <p className="font-semibold text-foreground text-sm mb-1">Based in</p>
+                    <p className="text-sm text-muted-foreground">{contact.details.address}</p>
                   </div>
                 </div>
 
@@ -294,25 +292,6 @@ export default function ContactPage() {
                   <ContactForm />
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
-
-        {/* Google Map */}
-        <section className="bg-background pb-xxl">
-          <div className="max-w-content mx-auto px-4">
-            <h2 className="text-2xl font-bold text-foreground mb-6" style={{ fontFamily: 'var(--font-heading)' }}>Find Us</h2>
-            <div className="rounded-sm overflow-hidden border border-border shadow-sm" style={{ height: '400px' }}>
-              <iframe
-                title="Western Cars Henfield location map"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2503.8!2d-0.2735!3d50.9285!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2s2+Coopers+Way%2C+Henfield%2C+West+Sussex+BN5+9EQ!5e0!3m2!1sen!2suk!4v1"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade" />
-              
             </div>
           </div>
         </section>
